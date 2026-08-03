@@ -183,7 +183,7 @@ export default function WebflowSite({ page, locale="fi" }: { page: PageKey; loca
   const localizedMiksiBlocks = localizeValue(miksiBlocks,locale);
   const localizedTarjoaaBlocks = localizeValue(tarjoaaBlocks,locale);
   const localizedFaqItems = localizeValue(faqItems,locale);
-  const demoUrl = `https://mid-demo-73dezblnk-midc-onsulting.vercel.app/?lang=${locale}`;
+  const demoUrl = `https://demo.midwellbeing.com/?lang=${locale}`;
   const submitContact = async (event:React.FormEvent<HTMLFormElement>,formKind:ContactFormKind) => {
     event.preventDefault();
     const form=event.currentTarget;
