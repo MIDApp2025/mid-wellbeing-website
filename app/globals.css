@@ -361,7 +361,7 @@ footer small span{float:right}
 
 .wf-meista-flow{display:flex;flex-direction:column}
 @media(max-width:650px) and (orientation:portrait){
-  .wf-meista-flow .wf-meista-purpose{order:1}
-  .wf-meista-flow .wf-meista-origin{order:2}
-  .wf-meista-flow .wf-meista-ai{order:3}
+  .wf-meista-flow .wf-meista-purpose{order:1;margin-top:18px}
+  .wf-meista-flow .wf-meista-origin{order:2;padding-top:54px}
+  .wf-meista-flow .wf-meista-ai{order:3;padding-top:56px;padding-bottom:60px}
 }
