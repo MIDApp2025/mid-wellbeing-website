@@ -319,3 +319,14 @@ footer small span{float:right}
   .wf-lang{padding:8px 0}
   .wf-contact{text-align:center;margin-top:6px}
 }
+
+/* Etusivun mobiilihero: teksti ensin, naiseen rajattu pystymäinen kuva sen jälkeen */
+@media (max-width:650px){
+  .wf-home-hero{padding-top:0}
+  .wf-home-copy{order:1}
+  .wf-home-hero>img{position:relative;inset:auto;order:2;display:block;width:100%;height:min(130vw,570px);min-height:440px;object-fit:cover;object-position:74% center}
+}
+
+@media (max-width:650px) and (orientation:landscape){
+  .wf-home-hero>img{height:min(72vw,430px);min-height:0}
+}
