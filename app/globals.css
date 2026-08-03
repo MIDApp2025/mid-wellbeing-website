@@ -349,3 +349,7 @@ footer small span{float:right}
 :is(.wf-end,.wf-miksi-quote,.wf-tarjoaa-quote,.wf-testaa-quote) :is(h2,blockquote){font-family:'Playfair Display',serif;font-size:clamp(30px,3.4vw,48px);line-height:1.14;letter-spacing:-1.4px}
 @media(max-width:650px){:is(.wf-end,.wf-miksi-quote,.wf-tarjoaa-quote,.wf-testaa-quote){padding:44px 20px 72px}}
 @media(prefers-reduced-motion:reduce){.wf-slogan-reveal{opacity:1;transform:none;transition:none}}
+
+/* Yhteydenottolomake lähemmäs navigaatiota */
+.wf-form{padding:54px 20px 86px}
+@media(max-width:650px){.wf-form{padding:38px 20px 68px}}
