@@ -96,7 +96,7 @@ footer small span{float:right}
   .wf-miksi-text{padding:40px 27px}
   .wf-miksi-text p{font-size:14px}
   .wf-miksi-image{height:330px}
-  .wf-miksi-quote{padding:66px 20px 72px}
+  .wf-miksi-quote{padding:44px 20px 72px}
 }
 @media(prefers-reduced-motion:reduce){.wf-miksi-quote .wf-miksi-quote-reveal{opacity:1;transform:none;transition:none}}
 
