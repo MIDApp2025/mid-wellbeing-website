@@ -9,7 +9,7 @@ type Card = { title: string; text: string; icon?: string; iconSrc?: string };
 type ContactFormKind = "page" | "footer";
 type ContactState = { kind: "idle" | "sending" | "success" | "error"; message?: string };
 
-const contactEndpoint = process.env.NEXT_PUBLIC_CONTACT_API_URL || "https://midai-functions-pro.vercel.app/api/contactWebPage";
+const contactEndpoint = process.env.NEXT_PUBLIC_CONTACT_API_URL || "https://www.midconsulting.io/api/contactWebPage";
 const contactMessages: Record<Locale,{sending:string;success:string;invalid:string;error:string}> = {
   fi:{sending:"Lähetetään…",success:"Kiitos! Viestisi on lähetetty.",invalid:"Tarkista sähköpostiosoite.",error:"Viestin lähetys epäonnistui. Yritä hetken kuluttua uudelleen."},
   en:{sending:"Sending…",success:"Thank you! Your message has been sent.",invalid:"Please check your email address.",error:"The message could not be sent. Please try again shortly."},
