@@ -358,3 +358,10 @@ footer small span{float:right}
 .wf-end{padding-top:76px}
 .wf-meista-purpose{border-radius:8px;overflow:hidden}
 @media(max-width:650px){.wf-end{padding-top:56px}}
+
+.wf-meista-flow{display:flex;flex-direction:column}
+@media(max-width:650px) and (orientation:portrait){
+  .wf-meista-flow .wf-meista-purpose{order:1}
+  .wf-meista-flow .wf-meista-origin{order:2}
+  .wf-meista-flow .wf-meista-ai{order:3}
+}
