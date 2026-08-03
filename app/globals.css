@@ -353,3 +353,8 @@ footer small span{float:right}
 /* Yhteydenottolomake lähemmäs navigaatiota */
 .wf-form{padding:54px 20px 86px}
 @media(max-width:650px){.wf-form{padding:38px 20px 68px}}
+
+/* Etusivulla kuva ja slogan tarvitsevat hieman selkeämmän välin */
+.wf-end{padding-top:76px}
+.wf-meista-purpose{border-radius:8px;overflow:hidden}
+@media(max-width:650px){.wf-end{padding-top:56px}}
