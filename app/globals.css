@@ -332,3 +332,7 @@ footer small span{float:right}
   .wf-home-hero>img{height:min(72vw,430px);min-height:0}
   .wf-parallax{height:66.67vw;min-height:0;background-size:cover;background-position:center 45%;background-attachment:scroll}
 }
+
+@media (max-width:650px) and (orientation:portrait){
+  .wf-footer-note{display:none}
+}
