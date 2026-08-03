@@ -308,6 +308,7 @@ footer small span{float:right}
   .wf-header nav>a:not(.wf-contact){white-space:nowrap}
   .wf-contact{padding:9px 12px!important}
   .wf-lang select{padding:6px 22px 6px 8px}
+  .wf-parallax{height:min(66.67vw,560px);min-height:0;background-size:cover;background-position:center 45%;background-attachment:scroll}
   .wf-miksi-parallax,.wf-tarjoaa-parallax{height:min(62vw,520px);min-height:0;background-size:contain;background-repeat:no-repeat;background-position:center;background-attachment:scroll;background-color:#e6f0f8}
 }
 
@@ -329,4 +330,5 @@ footer small span{float:right}
 
 @media (max-width:650px) and (orientation:landscape){
   .wf-home-hero>img{height:min(72vw,430px);min-height:0}
+  .wf-parallax{height:66.67vw;min-height:0;background-size:cover;background-position:center 45%;background-attachment:scroll}
 }
